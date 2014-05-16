@@ -34,6 +34,7 @@ tree = browserify(tree, options);
 * `require`: (default []) An array of file, option pairs
 passed to [browserify require
 method](https://github.com/substack/node-browserify#brequirefile-opts)
+* `external`: (default []) An array of file passed to [browserify external method](https://github.com/substack/node-browserify#bexternalfile)
 
 ## Changelog
 
