@@ -33,6 +33,7 @@ tree = browserify(tree, options);
 * `bundle`:  (default `{}`) Options passed to [browserify bundle method](https://github.com/substack/node-browserify#bbundleopts-cb)
 * `require`: (default []) An array of file, option pairs passed to [browserify require method](https://github.com/substack/node-browserify#brequirefile-opts)
 * `external`: (default []) An array of file passed to [browserify external method](https://github.com/substack/node-browserify#bexternalfile)
+* `exclude`: (default []) An array of file passed to [browserify exclude method](https://github.com/substack/node-browserify#bexcludefile)
 * `transform`: (default []) An array of option, transform pairs passed to [browserify transform method](https://github.com/substack/node-browserify#btransformopts-tr)
 
 ## Changelog
