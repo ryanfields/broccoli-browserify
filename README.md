@@ -31,10 +31,9 @@ tree = browserify(tree, options);
 * `outputFile`: (default `"./browserify.js"`) Output file
 * `browserify` : (default `{}`) Options passed to the [browserify constructor](https://github.com/substack/node-browserify#var-b--browserifyfiles-or-opts)
 * `bundle`:  (default `{}`) Options passed to [browserify bundle method](https://github.com/substack/node-browserify#bbundleopts-cb)
-* `require`: (default []) An array of file, option pairs
-passed to [browserify require
-method](https://github.com/substack/node-browserify#brequirefile-opts)
+* `require`: (default []) An array of file, option pairs passed to [browserify require method](https://github.com/substack/node-browserify#brequirefile-opts)
 * `external`: (default []) An array of file passed to [browserify external method](https://github.com/substack/node-browserify#bexternalfile)
+* `transform`: (default []) An array of option, transform pairs passed to [browserify transform method](https://github.com/substack/node-browserify#btransformopts-tr)
 
 ## Changelog
 
